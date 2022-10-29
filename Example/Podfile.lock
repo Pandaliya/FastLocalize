@@ -1,0 +1,16 @@
+PODS:
+  - FastLocalize (0.1.0)
+
+DEPENDENCIES:
+  - FastLocalize (from `../`)
+
+EXTERNAL SOURCES:
+  FastLocalize:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FastLocalize: 8bce5cd81bf9575943b7f560506ebd37518801fe
+
+PODFILE CHECKSUM: da8a2bbe0736ad97eee002496056d4b0acc4914c
+
+COCOAPODS: 1.11.2

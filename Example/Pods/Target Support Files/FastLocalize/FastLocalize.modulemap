@@ -1,0 +1,6 @@
+framework module FastLocalize {
+  umbrella header "FastLocalize-umbrella.h"
+
+  export *
+  module * { export * }
+}

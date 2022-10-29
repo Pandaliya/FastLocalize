@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by pan zhang on 2022/7/26.
+  
+*/
+
+"Language"="语言";
+"English"="英语";
+"Chinese"="简体中文";
+"Japanese"="日语";
+"Korean"="韩语";

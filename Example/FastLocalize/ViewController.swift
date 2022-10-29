@@ -7,17 +7,49 @@
 //
 
 import UIKit
+import FastLocalize
 
-class ViewController: UIViewController {
-
+class ViewController: UITableViewController {
+    let languages: [String] = [
+        "English",
+        "简体中文",
+        "日本语",
+        "한국어"
+    ]
+    
+    let locals: [String] = [
+        "English",
+        "Chinese",
+        "Japanese",
+        "Korean"
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.navigationItem.title = "Language".fastLocalized
+        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "ViewController")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return languages.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ViewController", for: indexPath)
+        if #available(iOS 14.0, *) {
+            var ccf = cell.defaultContentConfiguration()
+            ccf.text = self.languages[indexPath.row]
+            ccf.secondaryText = self.locals[indexPath.row].fastLocalized
+            cell.contentConfiguration = ccf
+        } else {
+            cell.textLabel?.text = self.languages[indexPath.row]
+            cell.detailTextLabel?.text = self.locals[indexPath.row].fastLocalized
+        }
+        return cell
     }
 
 }

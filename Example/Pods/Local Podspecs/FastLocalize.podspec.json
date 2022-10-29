@@ -1,0 +1,27 @@
+{
+  "name": "FastLocalize",
+  "version": "0.1.0",
+  "summary": "Fast access localization code",
+  "description": "Fast access localization code, Make your application International",
+  "homepage": "https://github.com/zhangpan/FastLocalize",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangpan": "zhangpan@cls.cn"
+  },
+  "source": {
+    "git": "https://github.com/zhangpan/FastLocalize.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FastLocalize/Classes/**/*",
+  "resource_bundles": {
+    "FastLocalize": [
+      "FastLocalize/Assets/**/*"
+    ]
+  }
+}
