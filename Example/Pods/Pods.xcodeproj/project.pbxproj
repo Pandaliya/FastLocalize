@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		00BC4D5C5D830A71B2A06F3B2A75C08F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53FB4BA041D70C4333A134A231F9E6F7 /* Localizable.strings */; };
 		209A5ED64EBDC2F39858C68988E28BB1 /* Pods-FastLocalize_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDD4644CD4A7EEBCA48444CA1C99272 /* Pods-FastLocalize_Tests-dummy.m */; };
-		2915A4822F14F8EEA0F9460BAD4C9AB5 /* FastLocalize-FastLocalize in Resources */ = {isa = PBXBuildFile; fileRef = 4409AF3202526859B895E44607EDDE5C /* FastLocalize-FastLocalize */; };
+		2915A4822F14F8EEA0F9460BAD4C9AB5 /* FastLocalize.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4409AF3202526859B895E44607EDDE5C /* FastLocalize.bundle */; };
 		3192B544F8B513446D044B46BD3A1C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4D3FD804EA81E07547C3C895A9841E21 /* Pods-FastLocalize_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB7F67B0BA7F602AD701F735753D32F /* Pods-FastLocalize_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59082E4E72E65187A426458FD150118B /* FastLocalize-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 915A07840E8CCB437C6587A4701E2B1D /* FastLocalize-dummy.m */; };
@@ -54,8 +54,8 @@
 		27B27B45D2DE768480544069F32E20D6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2B0EA517D902CB8BDBF95FD4E106AB0A /* Pods-FastLocalize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastLocalize_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3BC074DEC6D1673EC32E0E301EF1560D /* Pods-FastLocalize_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastLocalize_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D4CC282C29DCBE8811245204960E33A /* FastLocalize */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FastLocalize; path = FastLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4409AF3202526859B895E44607EDDE5C /* FastLocalize-FastLocalize */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FastLocalize-FastLocalize"; path = FastLocalize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4CC282C29DCBE8811245204960E33A /* FastLocalize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FastLocalize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4409AF3202526859B895E44607EDDE5C /* FastLocalize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastLocalize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		46082D96D37B39D163BB2231E6B296C9 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		46CC7C3407B7296A78D3EB06B64590BF /* FastLocalize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastLocalize.release.xcconfig; sourceTree = "<group>"; };
 		495D6B35E7C64EFC0E7860BC89A41C88 /* FastLocalize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastLocalize-umbrella.h"; sourceTree = "<group>"; };
@@ -71,19 +71,19 @@
 		633A7FD57272F552DE29184F1E24C4BB /* FastLocalize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FastLocalize.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		81DFC10FC101F2F5E3D562ECF6EBFE17 /* FastLocalize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FastLocalize.swift; path = FastLocalize/Classes/FastLocalize.swift; sourceTree = "<group>"; };
-		84166F590310153C4B325460241BACF0 /* FastLocalize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FastLocalize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84166F590310153C4B325460241BACF0 /* FastLocalize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FastLocalize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8C8883EC2BF714AD6208DBD110C2A76E /* Pods-FastLocalize_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FastLocalize_Tests.modulemap"; sourceTree = "<group>"; };
 		8D0E84366097DC3144927057E45ADB9E /* Pods-FastLocalize_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastLocalize_Example-Info.plist"; sourceTree = "<group>"; };
 		915A07840E8CCB437C6587A4701E2B1D /* FastLocalize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastLocalize-dummy.m"; sourceTree = "<group>"; };
 		924057368917AFD79310703518D0A13A /* ResourceBundle-FastLocalize-FastLocalize-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FastLocalize-FastLocalize-Info.plist"; sourceTree = "<group>"; };
 		931A44D567A56C9546E3A1AF1A129A1D /* Pods-FastLocalize_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FastLocalize_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD990A58A07AA7E3C76C38C047C9A776 /* Pods-FastLocalize_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FastLocalize_Tests-Info.plist"; sourceTree = "<group>"; };
 		B34AAEEA33D520832AEDCE35F2BFC04D /* Pods-FastLocalize_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FastLocalize_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB6FEA609F1D550487A32CFFA395239F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BB6FEA609F1D550487A32CFFA395239F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C554843550CD7DE89E12E6F8875BC24E /* Pods-FastLocalize_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FastLocalize_Example"; path = Pods_FastLocalize_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F1683CD766BC2EF642FD58AAEAB9C6 /* Pods-FastLocalize_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FastLocalize_Example-umbrella.h"; sourceTree = "<group>"; };
-		D29889CE3D938B03227B42E5A1965CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D29889CE3D938B03227B42E5A1965CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E1CDBE2B32DD49960D85192E4E24F211 /* FastLocalize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastLocalize.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,8 +152,8 @@
 		53DF8BB8F7EC4E520B18BD8C9E2DA46D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D4CC282C29DCBE8811245204960E33A /* FastLocalize */,
-				4409AF3202526859B895E44607EDDE5C /* FastLocalize-FastLocalize */,
+				3D4CC282C29DCBE8811245204960E33A /* FastLocalize.framework */,
+				4409AF3202526859B895E44607EDDE5C /* FastLocalize.bundle */,
 				C554843550CD7DE89E12E6F8875BC24E /* Pods-FastLocalize_Example */,
 				4DBDE886DC0D30BD35FD5E5098379A37 /* Pods-FastLocalize_Tests */,
 			);
@@ -294,7 +294,7 @@
 			);
 			name = FastLocalize;
 			productName = FastLocalize;
-			productReference = 3D4CC282C29DCBE8811245204960E33A /* FastLocalize */;
+			productReference = 3D4CC282C29DCBE8811245204960E33A /* FastLocalize.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5F0B73CC249534AD66476F174A83AA64 /* Pods-FastLocalize_Example */ = {
@@ -349,7 +349,7 @@
 			);
 			name = "FastLocalize-FastLocalize";
 			productName = FastLocalize;
-			productReference = 4409AF3202526859B895E44607EDDE5C /* FastLocalize-FastLocalize */;
+			productReference = 4409AF3202526859B895E44607EDDE5C /* FastLocalize.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -360,6 +360,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5940AFC7D2A57FBD0EC570F362906FE0 = {
+						LastSwiftMigration = "";
+					};
+					BDF780565826349411156BBADF2AD757 = {
+						DevelopmentTeam = RHNL57UU8L;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -397,7 +405,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2915A4822F14F8EEA0F9460BAD4C9AB5 /* FastLocalize-FastLocalize in Resources */,
+				2915A4822F14F8EEA0F9460BAD4C9AB5 /* FastLocalize.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +571,7 @@
 			baseConfigurationReference = E1CDBE2B32DD49960D85192E4E24F211 /* FastLocalize.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FastLocalize";
+				DEVELOPMENT_TEAM = RHNL57UU8L;
 				IBSC_MODULE = FastLocalize;
 				INFOPLIST_FILE = "Target Support Files/FastLocalize/ResourceBundle-FastLocalize-FastLocalize-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -662,8 +671,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -693,7 +701,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -724,7 +732,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -836,6 +844,7 @@
 			baseConfigurationReference = 46CC7C3407B7296A78D3EB06B64590BF /* FastLocalize.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FastLocalize";
+				DEVELOPMENT_TEAM = RHNL57UU8L;
 				IBSC_MODULE = FastLocalize;
 				INFOPLIST_FILE = "Target Support Files/FastLocalize/ResourceBundle-FastLocalize-FastLocalize-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

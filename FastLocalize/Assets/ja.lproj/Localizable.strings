@@ -5,9 +5,15 @@
   Created by pan zhang on 2022/7/26.
   
 */
-
+"Supported languages"="サポートされている言語";
+"Supported words"="サポートされている単語";
+"Set with the system"="システムで設定";
 "Language"="言語";
 "English"="英語";
 "Chinese"="簡体字中国語";
 "Japanese"="日本語";
 "Korean"="韓国語";
+
+//MARK: - Action
+"Confirm"="確認";
+

@@ -5,9 +5,14 @@
   Created by pan zhang on 2022/7/26.
   
 */
-
+"Supported languages"="Supported languages";
+"Supported words"="Supported words";
+"Set with the system"="Set with the system";
 "Language"="Language";
 "English"="English";
-"Chinese"="Chanese";
+"Chinese"="Chinese";
 "Japanese"="Japanese";
 "Korean"="Korean";
+
+//MARK: - Action
+"Confirm"="Confirm";

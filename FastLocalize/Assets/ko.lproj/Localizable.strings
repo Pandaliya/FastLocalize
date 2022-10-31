@@ -5,9 +5,14 @@
   Created by pan zhang on 2022/7/26.
   
 */
-
+"Supported languages"="지원되는 언어";
+"Supported words"="지원되는 단어";
+"Set with the system"="시스템으로 설정";
 "Language"="언어";
 "English"="영어";
 "Chinese"="중국어 간체";
 "Japanese"="일본어";
 "Korean"="한국인";
+
+//MARK: - Action
+"Confirm"="확인하다";

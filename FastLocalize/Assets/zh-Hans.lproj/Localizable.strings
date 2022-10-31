@@ -5,9 +5,14 @@
   Created by pan zhang on 2022/7/26.
   
 */
-
+"Supported languages"="支持的语言";
+"Supported words"="支持的词语";
+"Set with the system"="随系统设置";
 "Language"="语言";
 "English"="英语";
 "Chinese"="简体中文";
 "Japanese"="日语";
 "Korean"="韩语";
+
+//MARK: - Action
+"Confirm"="确定";
