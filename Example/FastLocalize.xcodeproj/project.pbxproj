@@ -33,7 +33,6 @@
 		2EF7380C07F60D2E62C03870 /* Pods_FastLocalize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastLocalize_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA71F1BA765364741B250CA /* Pods-FastLocalize_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLocalize_Example.debug.xcconfig"; path = "Target Support Files/Pods-FastLocalize_Example/Pods-FastLocalize_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FastLocalize_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastLocalize_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,9 @@
 		B481C799290FB47A008E6EBD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		B481C79A290FB47A008E6EBD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		B481C79B290FB538008E6EBD /* WordsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableController.swift; sourceTree = "<group>"; };
+		B4AE8AE02910AE37002E81AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		B4AE8AE22910AE3F002E81AC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
+		B4AE8AE32910AE42002E81AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		B7CF5BFC6F008E1453FAE134 /* Pods-FastLocalize_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLocalize_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FastLocalize_Tests/Pods-FastLocalize_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD0629E5B7EA620359C79A25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C5C8D543EDB2800BBDE94B55 /* Pods-FastLocalize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLocalize_Example.release.xcconfig"; path = "Target Support Files/Pods-FastLocalize_Example/Pods-FastLocalize_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,7 +137,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
+				B4AE8AE12910AE37002E81AC /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -384,6 +386,16 @@
 				B481C799290FB47A008E6EBD /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B4AE8AE12910AE37002E81AC /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4AE8AE02910AE37002E81AC /* Base */,
+				B4AE8AE22910AE3F002E81AC /* zh-Hans */,
+				B4AE8AE32910AE42002E81AC /* en */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
