@@ -1,6 +1,0 @@
-framework module Pods_FastLocalize_Tests {
-  umbrella header "Pods-FastLocalize_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
