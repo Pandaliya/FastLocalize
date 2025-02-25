@@ -8,6 +8,7 @@
 "Supported languages"="Supported languages";
 "Supported words"="Supported words";
 "Set with the system"="Set with the system";
+"With System"="With System";
 "Language"="Language";
 "English"="English";
 "Chinese"="Chinese";
@@ -19,6 +20,19 @@
 "Confirm"="Confirm";
 "Success"="Success";
 
-
 "Downloading"="Downloading";
-
+"Favorites"="Favorites";
+"Settings"="Settings";
+"Status"="Status";
+"Account"="Account";
+"Recently"="Recently";
+"My Favorites"="My Favorites";
+"Add Folder"="Add Folder";
+"All loaded"="All loaded";
+"Loading..."="Loading...";
+"Pull up to load more"="Pull up to load more";
+"My Downloads"="My Downloads";
+"Feedback"="Feedback";
+"Subscription Services"="Subscription Services";
+"Subscribe"="订阅";  // ✓
+"Subscribed"="已订阅";  // ✓
