@@ -7,6 +7,7 @@ public enum FastLanguage: String, CaseIterable {
     case sys = "system"
     case en = "en" // 英语（无国别）
     case zh_hans = "zh-Hans" // 简体中文
+    case zh_hant = "zh-Hant" // 繁体中文
     case ja = "ja" // 日文
     case ko = "ko" // 韩文
     
@@ -33,17 +34,21 @@ public enum FastLanguage: String, CaseIterable {
             return "Japanese".fastLocalized
         case .ko:
             return "Korean".fastLocalized
+        case .zh_hant:
+            return "Chinese Traditional".fastLocalized
         }
     }
     
     public var title: String {
         switch self {
         case .sys:
-            return "Set with the system"
+            return "Set with the system".fastLocalized
         case .en:
             return "English"
         case .zh_hans:
             return "简体中文"
+        case .zh_hant:
+            return "繁體中文"
         case .ja:
             return "日本語"
         case .ko:

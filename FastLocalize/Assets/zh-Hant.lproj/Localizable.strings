@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by pan zhang on 2022/7/26.
+  
+*/
+"Supported languages"="支持的語言";
+"Supported words"="支持的詞語";
+"Set with the system"="隨繫統設置";
+"Language"="語言";
+"English"="英語";
+"Chinese"="簡體中文";
+"Chinese Traditional"="繁體中文";
+"Japanese"="日語";
+"Korean"="韓語";
+
+//MARK: - Action
+"Confirm"="確定";
+"Success"="成功";

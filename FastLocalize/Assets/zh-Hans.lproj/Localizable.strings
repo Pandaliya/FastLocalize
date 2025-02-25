@@ -8,12 +8,53 @@
 "Supported languages"="支持的语言";
 "Supported words"="支持的词语";
 "Set with the system"="随系统设置";
+"With System"="跟随系统";
 "Language"="语言";
 "English"="英语";
 "Chinese"="简体中文";
+"Chinese Traditional"="繁体中文";
 "Japanese"="日语";
 "Korean"="韩语";
 
-//MARK: - Action
+// MARK: - Action
 "Confirm"="确定";
 "Success"="成功";
+
+//
+//"Favorites"="收藏";
+//"Settings"="设置";
+//"Status"="状态";
+//"User"="个人中心";
+//"Recently"="最近播放";
+//"My Favorites"="我的收藏";
+//"Add Folder"="创建目录";
+//""="已全部加载";
+//""="我的下载";
+//""="意见反馈";
+//""="订阅服务";
+//""="订阅";
+//""="已订阅";
+//""="个人信息";
+//""="当前用户";
+//""="当前登录";
+//""="公网地址";
+//""="内网地址";
+//"Switch Account"="切换用户";
+//"Log Out"="退出登录";
+//""="登录新用户"
+//"Log in"="登录";
+//"Logged"="已登录用户";
+//""="用户名";
+//""="密码";
+//""="";
+//"Downloading"="正在下载";
+//""="未观看";
+//""="清理缓存";
+//""="隐私协议";
+//"Color Mode"="颜色模式";
+//"Light"="白天";
+//"Dark"="黑夜";
+//""="电子书";
+//""="相册";
+//""="";
+

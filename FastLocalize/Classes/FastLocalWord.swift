@@ -7,6 +7,7 @@
 
 import Foundation
 
+// App常用词语
 public enum FastLocalWord: String, CaseIterable {
     case Confirm = "Confirm"
 }
