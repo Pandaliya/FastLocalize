@@ -12,6 +12,8 @@ public enum FastLanguage: String, CaseIterable {
     case zh_hant = "zh-Hant" // 繁体中文
     case ja = "ja" // 日文
     case ko = "ko" // 韩文
+    case vi = "vi" // 越南语
+    case ru = "ru" // 俄语
     
     var bundle: Bundle? {
         if self == .sys {
@@ -58,6 +60,10 @@ public enum FastLanguage: String, CaseIterable {
             return "Korean".fastLocalized
         case .zh_hant:
             return "Chinese Traditional".fastLocalized
+        case .vi:
+            return "Vietnamese".fastLocalized
+        case .ru:
+            return "Russian".fastLocalized
         }
     }
     
@@ -75,6 +81,10 @@ public enum FastLanguage: String, CaseIterable {
             return "日本語"
         case .ko:
             return "한국인"
+        case .ru:
+            return "Русский"
+        case .vi:
+            return "Tiếng Việt"
         }
     }
 }
