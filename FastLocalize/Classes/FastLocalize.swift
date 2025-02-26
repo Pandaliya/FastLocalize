@@ -1,7 +1,9 @@
 // FastLocalize.swift
 //
 
-public var FLBundle: Bundle = FastLocalizeManager.shared.currentLanguageBundle
+public extension Notification.Name {
+    static let FastLanguageUpdate = Notification.Name("FastLanguageUpdate")
+}
 
 public enum FastLanguage: String, CaseIterable {
     case sys = "system"
@@ -18,6 +20,26 @@ public enum FastLanguage: String, CaseIterable {
         
         if let path = FastLocalizeManager.FastLocalizeBundle.path(forResource: self.rawValue, ofType: "lproj") {
             return Bundle(path: path)
+        }
+        return nil
+    }
+    
+    public func languageBundle(of bundle: Bundle, subdirectory: String? = nil) -> Bundle? {
+        guard self != .sys else {
+            if let dir = subdirectory, let path = bundle.path(forResource: dir, ofType: nil) {
+                return Bundle(path: path)
+            }
+            return bundle
+        }
+        
+        if subdirectory == nil {
+            if let path = bundle.path(forResource: self.rawValue, ofType: "lproj") {
+                return Bundle(path: path)
+            }
+        } else {
+            if let path = bundle.path(forResource: self.rawValue, ofType: "lproj", inDirectory: subdirectory) {
+                return Bundle(path: path)
+            }
         }
         return nil
     }
@@ -75,15 +97,16 @@ open class FastLocalizeManager {
     }
     
     public private(set) var currentLanguageBundle: Bundle!
+    public private(set) var mainLanguageBundle: Bundle!
     public private(set) var language: FastLanguage = .sys
     
     // MARK: - public
     public func switchLanguage(_ lang: FastLanguage = .sys, sync: Bool = true) {
         self.currentLanguageBundle = lang.bundle
+        self.mainLanguageBundle = lang.languageBundle(of: Bundle.main)
         self.language = lang
-        
+        NotificationCenter.default.post(name: .FastLanguageUpdate, object: nil)
         if sync {
-            FLBundle = self.currentLanguageBundle
             UserDefaults.standard.set(lang.rawValue, forKey: FastLocalizeManager.UserDefaultsKey)
             UserDefaults.standard.synchronize()
         }
@@ -114,7 +137,11 @@ extension FastLocalizeManager: NSCopying {
 public extension String {
     class FastLocalize {}
     var fastLocalized:String {
-        return FLBundle.localizedString(forKey: self, value: "", table: nil)
+        return FastLocalizeManager.shared.currentLanguageBundle.localizedString(forKey: self, value: "", table: nil)
+    }
+    
+    var mainLocalized:String {
+        return FastLocalizeManager.shared.mainLanguageBundle.localizedString(forKey: self, value: "", table: nil)
     }
     
     func localized(langage: FastLanguage = .sys) -> String {

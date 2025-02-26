@@ -19,6 +19,8 @@
 // MARK: - Action
 "Confirm"="确定";
 "Success"="成功";
+"Cancel"="取消";
+"Remind"="提醒";
 
 "Downloading"="正在下载"; // ✓
 "Favorites"="收藏"; // ✓
@@ -36,25 +38,42 @@
 "Subscription Services"="订阅服务"; // ✓
 "Subscribe"="订阅";  // ✓
 "Subscribed"="已订阅";  // ✓
-"Account Information"="个人信息";
+"Account Information"="个人信息"; // ✓
 "Current User"="当前用户";
-"Currently logged in"="当前登录";
-"Public IP"="公网地址";
-"Intranet IP"="内网地址";
-"Switch Account"="切换用户";
-"Log Out"="退出登录";
-"Login New User"="登录新用户";
-"Log in"="登录";
-"Logged"="已登录用户";
-"User Name"="用户名";
-"Password"="密码";
-"Not watched"="未观看";
-"Clear the cache"="清理缓存";
-"Privacy Policy"="隐私协议";
-"Color Mode"="颜色模式";
-"Light"="白天";
-"Dark"="黑夜";
-"E-book"="电子书";
-"Photo Album"="相册";
-//""="";
+"Currently logged in"="当前登录"; // ✓
+"Public IP"="公网地址"; // ✓
+"Intranet IP"="内网地址"; // ✓
+"Switch Account"="切换用户"; // ✓
+"Log Out"="退出登录"; // ✓
+"Do you want to log out?"="是否退出登录？";
+"Login New User"="登录新用户"; // ✓
+"Log in"="登录";  // ✓
+"Logged in user"="已登录用户"; // ✓
+"No logged in user"="无已登录用户";
+"Select logged in user"="选择已登录用户";
+"User Name"="用户名"; // ✓
+"Password"="密码"; // ✓
+"Please enter your username"="请输入用户名"; // ✓
+"Please enter your password"="请输入密码"; // ✓
+"Not watched"="未观看"; // ✓
+"Clear the cache"="清理缓存"; // ✓
+"Privacy Policy"="隐私协议"; // ✓
+"Color Mode"="颜色模式"; // ✓
+"Light"="白天"; // ✓
+"Dark"="黑夜"; // ✓
+"E-book"="电子书"; // ✓
+"Add time"="添加时间";
 
+// 图片
+"Photo Album"="相册"; // ✓
+"Album"="相册"; // ✓
+"Photos"="照片"; // ✓
+"Photo"="照片"; // ✓
+"Delete"="删除"; // ✓
+"Are you sure you want to delete"="是否删除"; // ✓
+"Fail to delete"="删除失败"; // ✓
+
+//""="";
+//""="";
+//""="";
+//""="";

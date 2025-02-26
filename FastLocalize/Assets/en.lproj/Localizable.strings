@@ -19,6 +19,8 @@
 //MARK: - Action
 "Confirm"="Confirm";
 "Success"="Success";
+"Cancel"="Cancel";
+"Remind"="Remind";
 
 "Downloading"="Downloading";
 "Favorites"="Favorites";
@@ -34,5 +36,39 @@
 "My Downloads"="My Downloads";
 "Feedback"="Feedback";
 "Subscription Services"="Subscription Services";
-"Subscribe"="订阅";  // ✓
-"Subscribed"="已订阅";  // ✓
+"Subscribe"="Subscribe";
+"Subscribed"="Subscribed";
+"Account Information"="Account Information";
+"Current User"="Current User";
+"Currently logged in"="Currently logged in";
+"Public IP"="Public IP";
+"Intranet IP"="Intranet IP";
+"Switch Account"="Switch Account";
+"Log Out"="Log Out";
+"Do you want to log out?"="Do you want to log out?";
+"Login New User"="Login New User";
+"Log in"="Log in";
+"Logged in user"="Logged in user";
+"No logged in user"="No logged in user";
+"Select logged in user"="Select logged in user";
+"User Name"="User Name";
+"Password"="Password";
+"Please enter your username"="Please enter your username";
+"Please enter your password"="Please enter your password";
+"Not watched"="Not watched";
+"Clear the cache"="Clear the cache";
+"Privacy Policy"="Privacy Policy";
+"Color Mode"="Color Mode";
+"Light"="Light";
+"Dark"="Dark";
+"E-book"="E-book";
+"Add time"="Add time";
+
+// 图片
+"Photo Album"="Photo Album";
+"Album"="Album";
+"Photos"="Photos";
+"Photo"="Photo";
+"Delete"="Delete";
+"Are you sure you want to delete"="Are you sure you want to delete";
+"Fail to delete"="Fail to delete";
