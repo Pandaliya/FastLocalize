@@ -23,12 +23,10 @@
 "Remind"="Remind";
 
 "Downloading"="Downloading";
-"Favorites"="Favorites";
 "Settings"="Settings";
 "Status"="Status";
 "Account"="Account";
 "Recently"="Recently";
-"My Favorites"="My Favorites";
 "Add Folder"="Add Folder";
 "All loaded"="All loaded";
 "Loading..."="Loading...";
@@ -72,3 +70,56 @@
 "Delete"="Delete";
 "Are you sure you want to delete"="Are you sure you want to delete";
 "Fail to delete"="Fail to delete";
+
+// 收藏
+"Favorites"="Favorites";
+"My Favorites"="My Favorites";
+"Added to favorites" = "Added to favorites";
+"Removed from favorites" = "Removed from favorites";
+"Remove from favorites" = "Remove from favorites";
+"Unfavorite" = "Unfavorite";
+"Confirm removal from favorites?" = "Confirm removal from favorites?";
+
+// 上传/下载
+"Upload"="Upload";
+"Upload succeeded"="Upload succeeded";
+"Upload failed"="Upload failed";
+"Add File"="Add File";
+"Uploading"="Uploading";
+"Done"="Done";
+"Download" = "Download";
+"Not Started" = "Not Started";
+"Paused" = "Paused";
+"Download Failed" = "Download Failed";
+"Retry" = "Retry";
+"Syncing" = "Syncing";
+"Expired, tap to re-download" = "Expired, tap to re-download";
+"File Size" = "File Size";
+"Confirm Download" = "Confirm Download";
+"Unknown Error" = "Unknown Error";
+"Start Download" = "Start Download";
+"Added to Queue" = "Added to Queue";
+"In Queue" = "In Queue";
+"Task Stop Failed" = "Task Stop Failed";
+
+// 设置
+"Not Set" = "Not Set";
+"Copied to Clipboard" = "Copied to Clipboard";
+"Video Playback Failed" = "Video Playback Failed";
+"Database Initialization Error" = "Database Initialization Error";
+"Pull down to refresh"="Pull down to refresh";
+
+// 错误
+"Network Error" = "Network Error";
+"Please enter" = "Please enter";
+"Yesterday" = "Yesterday";
+"Minutes ago" = "Minutes ago";
+"No data available" = "No data available";
+"Data Error" = "Data Error";
+"Verification" = "Verification";
+"Please enter the verification code" = "Please enter the verification code";
+"Camera" = "Camera";
+"Retry again" = "Retry";
+"Network Request Failed" = "Network Request Failed";
+"Removed successfully" = "Removed successfully";
+"Added successfully" = "Added successfully";

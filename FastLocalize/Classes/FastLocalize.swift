@@ -87,6 +87,10 @@ public enum FastLanguage: String, CaseIterable {
             return "Tiếng Việt"
         }
     }
+    
+    public static var systemCurrent: String? {
+        return Locale.current.languageCode
+    }
 }
 
 

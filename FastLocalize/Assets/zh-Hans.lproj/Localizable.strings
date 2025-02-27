@@ -3,7 +3,7 @@
   Pods
 
   Created by pan zhang on 2022/7/26.
-  
+  // 快速查找中文正则："[^"]*[\u4E00-\u9FA5]+[^"\n]*?"
 */
 "Supported languages"="支持的语言";
 "Supported words"="支持的词语";
@@ -22,13 +22,11 @@
 "Cancel"="取消";
 "Remind"="提醒";
 
-"Downloading"="正在下载"; 
-"Favorites"="收藏"; 
+"Downloading"="正在下载";
 "Settings"="设置";  
 "Status"="状态";    
 "Account"="个人中心"; 
-"Recently"="最近播放"; 
-"My Favorites"="我的收藏"; 
+"Recently"="最近播放";
 "Add Folder"="创建目录"; 
 "All loaded"="已全部加载"; 
 "Loading..."="加载中..."; 
@@ -71,4 +69,57 @@
 "Photo"="照片"; 
 "Delete"="删除"; 
 "Are you sure you want to delete"="是否删除"; 
-"Fail to delete"="删除失败"; 
+"Fail to delete"="删除失败";
+
+// 收藏
+"Favorites"="收藏";
+"My Favorites"="我的收藏";
+"Added to favorites" = "收藏成功";
+"Removed from favorites" = "取消收藏成功";
+"Remove from favorites" = "取消收藏";
+"Unfavorite" = "取消收藏";
+"Confirm removal from favorites?" = "是否取消收藏";
+
+// 上传/下载
+"Upload"="上传";
+"Upload succeeded"="上传成功";
+"Upload failed"="上传失败";
+"Add File"="上传文件";
+"Uploading"="正在上传";
+"Done"="完成";
+"Download"="下载";
+"Not Started" = "未开始";
+"Paused" = "暂停中";
+"Download Failed" = "下载失败";
+"Retry" = "再试一次";
+"Syncing" = "同步中";
+"Expired, tap to re-download" = "已失效，点击重新下载";
+"File Size" = "文件大小";
+"Confirm Download" = "是否确定下载";
+"Unknown Error" = "未知错误";
+"Start Download" = "开始下载";
+"Added to Queue" = "已添加到下载队列";
+"In Queue" = "排队中";
+"Task Stop Failed" = "任务停止失败";
+
+// 设置
+"Not Set" = "未设置";
+"Copied to Clipboard" = "已复制到剪切板";
+"Video Playback Failed" = "视频无法播放";
+"Database Initialization Error" = "数据库初始化错误";
+"Pull down to refresh"="下拉刷新";
+
+// 错误
+"Network Error" = "网络错误";
+"Please enter" = "请输入";
+"Yesterday" = "昨天";
+"Minutes ago" = "分钟前";
+"No data available" = "暂无数据";
+"Data Error" = "数据错误";
+"Verification" = "验证";
+"Please enter the verification code" = "请输入验证码";
+"Camera" = "相机";
+"Retry again" = "点击重试";
+"Network Request Failed" = "网络请求失败";
+"Removed successfully" = "移除成功";
+"Added successfully" = "添加成功";
