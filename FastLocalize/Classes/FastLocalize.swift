@@ -106,18 +106,19 @@ open class FastLocalizeManager {
             self.switchLanguage(type, sync: false)
         } else {
             self.currentLanguageBundle = FastLocalizeManager.FastLocalizeBundle
+            self.mainLanguageBundle = Bundle.main
             self.language = .sys
         }
     }
     
-    public private(set) var currentLanguageBundle: Bundle!
-    public private(set) var mainLanguageBundle: Bundle!
+    public private(set) var currentLanguageBundle: Bundle?
+    public private(set) var mainLanguageBundle: Bundle?
     public private(set) var language: FastLanguage = .sys
     
     // MARK: - public
     public func switchLanguage(_ lang: FastLanguage = .sys, sync: Bool = true) {
         self.currentLanguageBundle = lang.bundle
-        self.mainLanguageBundle = lang.languageBundle(of: Bundle.main)
+        self.mainLanguageBundle = lang.languageBundle(of: Bundle.main) ?? Bundle.main
         self.language = lang
         NotificationCenter.default.post(name: .FastLanguageUpdate, object: nil)
         if sync {
@@ -151,18 +152,14 @@ extension FastLocalizeManager: NSCopying {
 public extension String {
     class FastLocalize {}
     var fastLocalized:String {
-        return FastLocalizeManager.shared.currentLanguageBundle.localizedString(forKey: self, value: "", table: nil)
+        return FastLocalizeManager.shared.currentLanguageBundle?.localizedString(forKey: self, value: "", table: nil) ?? self
     }
     
     var mainLocalized:String {
-        return FastLocalizeManager.shared.mainLanguageBundle.localizedString(forKey: self, value: "", table: nil)
+        return FastLocalizeManager.shared.mainLanguageBundle?.localizedString(forKey: self, value: "", table: nil) ?? self
     }
     
     func localized(langage: FastLanguage = .sys) -> String {
         return langage.bundle?.localizedString(forKey: self, value: "", table: nil) ?? self
     }
 }
-
-
-
-
