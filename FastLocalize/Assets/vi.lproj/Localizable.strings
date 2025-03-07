@@ -5,16 +5,131 @@
   Created by pan zhang on 2022/7/26.
   
 */
-"Supported languages"="Supported languages";
-"Supported words"="Supported words";
-"Set with the system"="Set with the system";
-"Language"="Language";
-"English"="English";
-"Chinese"="Chinese";
-"Chinese Traditional"="Chinese Traditional";
-"Japanese"="Japanese";
-"Korean"="Korean";
+"Supported languages" = "Ngôn ngữ được hỗ trợ";
+"Supported words" = "Từ ngữ được hỗ trợ";
+"Set with the system" = "Cài đặt theo hệ thống";
+"With System" = "Theo hệ thống";
+"Language" = "Ngôn ngữ";
+"English" = "Tiếng Anh";
+"Chinese" = "Tiếng Trung";
+"Chinese Traditional" = "Tiếng Trung Phồn thể";
+"Japanese" = "Tiếng Nhật";
+"Korean" = "Tiếng Hàn";
+"Vietnamese" = "Tiếng Việt";
+"Russian" = "Tiếng Nga";
 
-//MARK: - Action
-"Confirm"="Confirm";
-"Success"="Success";
+// MARK: - Action
+"Confirm" = "Xác nhận";
+"Success" = "Thành công";
+"Cancel" = "Hủy";
+"Remind" = "Nhắc nhở";
+
+"Downloading" = "Đang tải xuống...";
+"Settings" = "Cài đặt";
+"Status" = "Trạng thái";
+"Account" = "Tài khoản";
+"Recently" = "Đã phát gần đây";
+"Add Folder" = "Tạo thư mục";
+"All loaded" = "Đã tải hết";
+"Loading..." = "Đang tải...";
+"Pull up to load more" = "Kéo lên để tải thêm";
+"My Downloads" = "Tải xuống của tôi";
+"Feedback" = "Phản hồi";
+"Subscription Services" = "Dịch vụ đăng ký";
+"Subscribe" = "Đăng ký";
+"Subscribed" = "Đã đăng ký";
+"Account Information" = "Thông tin tài khoản";
+"Current User" = "Người dùng hiện tại";
+"Currently logged in" = "Đang đăng nhập";
+"Public IP" = "Địa chỉ IP công khai";
+"Intranet IP" = "Địa chỉ IP nội bộ";
+"Switch Account" = "Chuyển tài khoản";
+"Log Out" = "Đăng xuất";
+"Do you want to log out?" = "Bạn có muốn đăng xuất không?";
+"Login New User" = "Đăng nhập người dùng mới";
+"Log in" = "Đăng nhập";
+"Logged in user" = "Người dùng đã đăng nhập";
+"No logged in user" = "Không có người dùng đã đăng nhập";
+"Select logged in user" = "Chọn người dùng đã đăng nhập";
+"User Name" = "Tên người dùng";
+"Password" = "Mật khẩu";
+"Please enter your username" = "Vui lòng nhập tên người dùng";
+"Please enter your password" = "Vui lòng nhập mật khẩu";
+"Not watched" = "Chưa xem";
+"Clear the cache" = "Xóa bộ nhớ đệm";
+"Privacy Policy" = "Chính sách quyền riêng tư";
+"Privacy Statement" = "Tuyên bố quyền riêng tư";
+"Color Mode" = "Chế độ màu";
+"Light" = "Sáng";
+"Dark" = "Tối";
+"E-book" = "Sách điện tử";
+"Add time" = "Thêm thời gian";
+
+// Hình ảnh
+"Photo Album" = "Album ảnh";
+"Album" = "Album";
+"Photos" = "Ảnh";
+"Photo" = "Ảnh";
+"Delete" = "Xóa";
+"Are you sure you want to delete" = "Bạn có chắc chắn muốn xóa không?";
+"Fail to delete" = "Xóa thất bại";
+
+// Yêu thích
+"Favorites" = "Yêu thích";
+"My Favorites" = "Mục yêu thích của tôi";
+"Added to favorites" = "Đã thêm vào mục yêu thích";
+"Removed from favorites" = "Đã xóa khỏi mục yêu thích";
+"Remove from favorites" = "Xóa khỏi mục yêu thích";
+"Unfavorite" = "Bỏ yêu thích";
+"Confirm removal from favorites?" = "Bạn có chắc muốn xóa khỏi mục yêu thích không?";
+
+// Tải lên/Tải xuống
+"Upload" = "Tải lên";
+"Upload succeeded" = "Tải lên thành công";
+"Upload failed" = "Tải lên thất bại";
+"Add File" = "Thêm tệp";
+"Uploading" = "Đang tải lên";
+"Done" = "Hoàn thành";
+"Download" = "Tải xuống";
+"Not Started" = "Chưa bắt đầu";
+"Paused" = "Tạm dừng";
+"Download Failed" = "Tải xuống thất bại";
+"Retry" = "Thử lại";
+"Syncing" = "Đồng bộ...";
+"Expired, tap to re-download" = "Đã hết hạn, nhấn để tải lại";
+"File Size" = "Kích thước tệp";
+"Confirm Download" = "Xác nhận tải xuống";
+"Unknown Error" = "Lỗi không xác định";
+"Start Download" = "Bắt đầu tải xuống";
+"Added to Queue" = "Đã thêm vào hàng đợi tải xuống";
+"In Queue" = "Trong hàng đợi";
+"Task Stop Failed" = "Dừng tác vụ thất bại";
+
+// Cài đặt
+"Not Set" = "Chưa đặt";
+"Copied to Clipboard" = "Đã sao chép vào bảng nhớ tạm";
+"Video Playback Failed" = "Phát video thất bại";
+"Database Initialization Error" = "Lỗi khởi tạo cơ sở dữ liệu";
+"Pull down to refresh" = "Kéo xuống để làm mới";
+
+// Lỗi
+"Network Error" = "Lỗi mạng";
+"Please enter" = "Vui lòng nhập";
+"Yesterday" = "Hôm qua";
+"Minutes ago" = "phút trước";
+"No data available" = "Không có dữ liệu";
+"Data Error" = "Lỗi dữ liệu";
+"Verification" = "Xác minh";
+"Please enter the verification code" = "Vui lòng nhập mã xác minh";
+"Camera" = "Máy ảnh";
+"Retry again" = "Nhấn để thử lại";
+"Network Request Failed" = "Yêu cầu mạng thất bại";
+"Removed successfully" = "Xóa thành công";
+"Added successfully" = "Thêm thành công";
+
+"Private Browsing" = "Duyệt web riêng tư";
+"Enabled" = "Đã bật";
+"Disabled" = "Đã tắt";
+"Enable" = "Bật";
+"Disable" = "Tắt";
+"Personalization"="Cá nhân hóa";

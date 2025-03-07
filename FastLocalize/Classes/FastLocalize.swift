@@ -26,6 +26,21 @@ public enum FastLanguage: String, CaseIterable {
         return nil
     }
     
+    // 获取跟随系统时的语言代码
+    public var languageCode: String {
+        guard self == .sys else {
+            return self.rawValue
+        }
+        if let preferredLanguage = Locale.preferredLanguages.first {
+            var languageCode = preferredLanguage.components(separatedBy: "-")
+            if languageCode.count > 1 {
+                languageCode.removeLast()
+            }
+            return languageCode.joined(separator: "-")
+        }
+        return "Base"
+    }
+    
     public func languageBundle(of bundle: Bundle, subdirectory: String? = nil) -> Bundle? {
         guard self != .sys else {
             if let dir = subdirectory, let path = bundle.path(forResource: dir, ofType: nil) {

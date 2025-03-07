@@ -1,9 +1,9 @@
-/* 
+/*
   Localizable.strings
   Pods
 
   Created by pan zhang on 2022/7/26.
-  
+  // 快速查找中文正则："[^"]*[\u4E00-\u9FA5]+[^"\n]*?"
 */
 "Supported languages" = "支持的語言";
 "Supported words" = "支持的詞語";

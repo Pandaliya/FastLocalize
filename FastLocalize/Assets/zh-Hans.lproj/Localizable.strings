@@ -57,8 +57,9 @@
 "Please enter your password"="请输入密码"; 
 "Not watched"="未观看"; 
 "Clear the cache"="清理缓存"; 
-"Privacy Policy"="隐私协议"; 
-"Color Mode"="颜色模式"; 
+"Privacy Policy"="隐私政策";
+"Privacy Statement"="隐私声明";
+"Color Mode"="颜色模式";
 "Light"="白天"; 
 "Dark"="黑夜"; 
 "E-book"="电子书"; 
@@ -125,3 +126,11 @@
 "Network Request Failed" = "网络请求失败";
 "Removed successfully" = "移除成功";
 "Added successfully" = "添加成功";
+
+"Private Browsing" = "无痕浏览";
+"Enabled" = "已开启";
+"Disabled" = "未开启";
+"Enable"="开启";
+"Disable"="关闭";
+"Personalization"="个性化";
+// --- 第一期close

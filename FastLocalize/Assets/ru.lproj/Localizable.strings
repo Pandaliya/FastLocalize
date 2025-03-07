@@ -5,70 +5,131 @@
   Created by pan zhang on 2022/7/26.
   
 */
-"Supported languages"="Supported languages";
-"Supported words"="Supported words";
-"Set with the system"="Set with the system";
-"With System"="With System";
-"Language"="Language";
-"English"="English";
-"Chinese"="Chinese";
-"Chinese Traditional"="Chinese Traditional";
-"Japanese"="Japanese";
-"Korean"="Korean";
+"Supported languages" = "Поддерживаемые языки";
+"Supported words" = "Поддерживаемые слова";
+"Set with the system" = "Настроить с системой";
+"With System" = "С системой";
+"Language" = "Язык";
+"English" = "Английский";
+"Chinese" = "Китайский";
+"Chinese Traditional" = "Китайский традиционный";
+"Japanese" = "Японский";
+"Korean" = "Корейский";
+"Vietnamese" = "Вьетнамский";
+"Russian" = "Русский";
 
-//MARK: - Action
-"Confirm"="Confirm";
-"Success"="Success";
-"Cancel"="Cancel";
-"Remind"="Remind";
+// MARK: - Action
+"Confirm" = "Подтвердить";
+"Success" = "Успех";
+"Cancel" = "Отмена";
+"Remind" = "Напоминание";
 
-"Downloading"="Downloading";
-"Favorites"="Favorites";
-"Settings"="Settings";
-"Status"="Status";
-"Account"="Account";
-"Recently"="Recently";
-"My Favorites"="My Favorites";
-"Add Folder"="Add Folder";
-"All loaded"="All loaded";
-"Loading..."="Loading...";
-"Pull up to load more"="Pull up to load more";
-"My Downloads"="My Downloads";
-"Feedback"="Feedback";
-"Subscription Services"="Subscription Services";
-"Subscribe"="Subscribe";
-"Subscribed"="Subscribed";
-"Account Information"="Account Information";
-"Current User"="Current User";
-"Currently logged in"="Currently logged in";
-"Public IP"="Public IP";
-"Intranet IP"="Intranet IP";
-"Switch Account"="Switch Account";
-"Log Out"="Log Out";
-"Do you want to log out?"="Do you want to log out?";
-"Login New User"="Login New User";
-"Log in"="Log in";
-"Logged in user"="Logged in user";
-"No logged in user"="No logged in user";
-"Select logged in user"="Select logged in user";
-"User Name"="User Name";
-"Password"="Password";
-"Please enter your username"="Please enter your username";
-"Please enter your password"="Please enter your password";
-"Not watched"="Not watched";
-"Clear the cache"="Clear the cache";
-"Privacy Policy"="Privacy Policy";
-"Color Mode"="Color Mode";
-"Light"="Light";
-"Dark"="Dark";
-"E-book"="E-book";
-"Add time"="Add time";
+"Downloading" = "Загрузка...";
+"Settings" = "Настройки";
+"Status" = "Статус";
+"Account" = "Аккаунт";
+"Recently" = "Недавно просмотренные";
+"Add Folder" = "Создать папку";
+"All loaded" = "Все загружено";
+"Loading..." = "Загрузка...";
+"Pull up to load more" = "Потяните вверх для загрузки";
+"My Downloads" = "Мои загрузки";
+"Feedback" = "Обратная связь";
+"Subscription Services" = "Подписки";
+"Subscribe" = "Подписаться";
+"Subscribed" = "Подписка активна";
+"Account Information" = "Информация об аккаунте";
+"Current User" = "Текущий пользователь";
+"Currently logged in" = "Вход выполнен";
+"Public IP" = "Публичный IP";
+"Intranet IP" = "Внутренний IP";
+"Switch Account" = "Сменить аккаунт";
+"Log Out" = "Выйти";
+"Do you want to log out?" = "Вы действительно хотите выйти?";
+"Login New User" = "Войти под другим пользователем";
+"Log in" = "Войти";
+"Logged in user" = "Авторизованный пользователь";
+"No logged in user" = "Нет авторизованных пользователей";
+"Select logged in user" = "Выберите пользователя";
+"User Name" = "Имя пользователя";
+"Password" = "Пароль";
+"Please enter your username" = "Введите имя пользователя";
+"Please enter your password" = "Введите пароль";
+"Not watched" = "Не просмотрено";
+"Clear the cache" = "Очистить кэш";
+"Privacy Policy" = "Политика конфиденциальности";
+"Privacy Statement" = "Заявление о конфиденциальности";
+"Color Mode" = "Режим цвета";
+"Light" = "Светлый";
+"Dark" = "Темный";
+"E-book" = "Электронная книга";
+"Add time" = "Добавить время";
 
-// 图片
-"Photo Album"="Photo Album";
-"Album"="Album";
-"Photos"="Photos";
-"Photo"="Photo";
-"Delete"="Delete";
-"Are you sure you want to delete"="Are you sure you want to delete";
-"Fail to delete"="Fail to delete";
+// Фото
+"Photo Album" = "Фотоальбом";
+"Album" = "Альбом";
+"Photos" = "Фотографии";
+"Photo" = "Фото";
+"Delete" = "Удалить";
+"Are you sure you want to delete" = "Вы уверены, что хотите удалить?";
+"Fail to delete" = "Ошибка удаления";
+
+// Избранное
+"Favorites" = "Избранное";
+"My Favorites" = "Мои избранные";
+"Added to favorites" = "Добавлено в избранное";
+"Removed from favorites" = "Удалено из избранного";
+"Remove from favorites" = "Удалить из избранного";
+"Unfavorite" = "Удалить из избранного";
+"Confirm removal from favorites?" = "Удалить из избранного?";
+
+// Загрузка/выгрузка
+"Upload" = "Загрузить";
+"Upload succeeded" = "Загрузка успешна";
+"Upload failed" = "Ошибка загрузки";
+"Add File" = "Добавить файл";
+"Uploading" = "Загрузка...";
+"Done" = "Готово";
+"Download" = "Скачать";
+"Not Started" = "Не начато";
+"Paused" = "Приостановлено";
+"Download Failed" = "Ошибка загрузки";
+"Retry" = "Попробовать снова";
+"Syncing" = "Синхронизация...";
+"Expired, tap to re-download" = "Истек срок, нажмите для загрузки";
+"File Size" = "Размер файла";
+"Confirm Download" = "Подтвердить загрузку";
+"Unknown Error" = "Неизвестная ошибка";
+"Start Download" = "Начать загрузку";
+"Added to Queue" = "Добавлено в очередь загрузки";
+"In Queue" = "В очереди";
+"Task Stop Failed" = "Ошибка остановки задачи";
+
+// Настройки
+"Not Set" = "Не задано";
+"Copied to Clipboard" = "Скопировано в буфер обмена";
+"Video Playback Failed" = "Ошибка воспроизведения видео";
+"Database Initialization Error" = "Ошибка инициализации базы данных";
+"Pull down to refresh" = "Потяните вниз для обновления";
+
+// Ошибки
+"Network Error" = "Ошибка сети";
+"Please enter" = "Введите";
+"Yesterday" = "Вчера";
+"Minutes ago" = "минут назад";
+"No data available" = "Нет данных";
+"Data Error" = "Ошибка данных";
+"Verification" = "Проверка";
+"Please enter the verification code" = "Введите код подтверждения";
+"Camera" = "Камера";
+"Retry again" = "Нажмите для повторной попытки";
+"Network Request Failed" = "Ошибка сетевого запроса";
+"Removed successfully" = "Успешно удалено";
+"Added successfully" = "Успешно добавлено";
+
+"Private Browsing" = "Приватный просмотр";
+"Enabled" = "Включено";
+"Disabled" = "Выключено";
+"Enable" = "Включить";
+"Disable" = "Выключить";  
+"Personalization"="Персонализация";

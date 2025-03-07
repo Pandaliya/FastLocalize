@@ -5,17 +5,131 @@
   Created by pan zhang on 2022/7/26.
   
 */
-"Supported languages"="サポートされている言語";
-"Supported words"="サポートされている単語";
-"Set with the system"="システムで設定";
-"Language"="言語";
-"English"="英語";
-"Chinese"="簡体字中国語";
-"Chinese Traditional"="食べログ";
-"Japanese"="日本語";
-"Korean"="韓国語";
+"Supported languages" = "対応言語";
+"Supported words" = "対応単語";
+"Set with the system" = "システム設定に従う";
+"With System" = "システムに従う";
+"Language" = "言語";
+"English" = "英語";
+"Chinese" = "簡体字中国語";
+"Chinese Traditional" = "繁体字中国語";
+"Japanese" = "日本語";
+"Korean" = "韓国語";
+"Vietnamese" = "ベトナム語";
+"Russian" = "ロシア語";
 
-//MARK: - Action
-"Confirm"="確認";
-"Success"="Success";
+// MARK: - Action
+"Confirm" = "確認";
+"Success" = "成功";
+"Cancel" = "キャンセル";
+"Remind" = "リマインド";
 
+"Downloading" = "ダウンロード中";
+"Settings" = "設定";
+"Status" = "ステータス";
+"Account" = "アカウント";
+"Recently" = "最近の再生";
+"Add Folder" = "フォルダーを作成";
+"All loaded" = "すべて読み込み完了";
+"Loading..." = "読み込み中...";
+"Pull up to load more" = "上にスワイプしてさらに読み込む";
+"My Downloads" = "マイダウンロード";
+"Feedback" = "フィードバック";
+"Subscription Services" = "サブスクリプションサービス";
+"Subscribe" = "購読";
+"Subscribed" = "購読済み";
+"Account Information" = "アカウント情報";
+"Current User" = "現在のユーザー";
+"Currently logged in" = "現在ログイン中";
+"Public IP" = "グローバルIPアドレス";
+"Intranet IP" = "ローカルIPアドレス";
+"Switch Account" = "アカウントを切り替える";
+"Log Out" = "ログアウト";
+"Do you want to log out?" = "ログアウトしますか？";
+"Login New User" = "新しいユーザーでログイン";
+"Log in" = "ログイン";
+"Logged in user" = "ログイン済みユーザー";
+"No logged in user" = "ログインユーザーなし";
+"Select logged in user" = "ログイン済みユーザーを選択";
+"User Name" = "ユーザー名";
+"Password" = "パスワード";
+"Please enter your username" = "ユーザー名を入力してください";
+"Please enter your password" = "パスワードを入力してください";
+"Not watched" = "未視聴";
+"Clear the cache" = "キャッシュをクリア";
+"Privacy Policy" = "プライバシーポリシー";
+"Privacy Statement" = "プライバシー声明";
+"Color Mode" = "カラーモード";
+"Light" = "ライト";
+"Dark" = "ダーク";
+"E-book" = "電子書籍";
+"Add time" = "追加時間";
+
+// 画像
+"Photo Album" = "フォトアルバム";
+"Album" = "アルバム";
+"Photos" = "写真";
+"Photo" = "写真";
+"Delete" = "削除";
+"Are you sure you want to delete" = "削除してもよろしいですか？";
+"Fail to delete" = "削除に失敗しました";
+
+// お気に入り
+"Favorites" = "お気に入り";
+"My Favorites" = "マイお気に入り";
+"Added to favorites" = "お気に入りに追加しました";
+"Removed from favorites" = "お気に入りから削除しました";
+"Remove from favorites" = "お気に入りから削除";
+"Unfavorite" = "お気に入り解除";
+"Confirm removal from favorites?" = "お気に入りを解除しますか？";
+
+// アップロード/ダウンロード
+"Upload" = "アップロード";
+"Upload succeeded" = "アップロード成功";
+"Upload failed" = "アップロード失敗";
+"Add File" = "ファイルをアップロード";
+"Uploading" = "アップロード中";
+"Done" = "完了";
+"Download" = "ダウンロード";
+"Not Started" = "未開始";
+"Paused" = "一時停止中";
+"Download Failed" = "ダウンロード失敗";
+"Retry" = "再試行";
+"Syncing" = "同期中";
+"Expired, tap to re-download" = "期限切れ、タップして再ダウンロード";
+"File Size" = "ファイルサイズ";
+"Confirm Download" = "ダウンロードを確認";
+"Unknown Error" = "不明なエラー";
+"Start Download" = "ダウンロードを開始";
+"Added to Queue" = "ダウンロードキューに追加";
+"In Queue" = "キュー中";
+"Task Stop Failed" = "タスクの停止に失敗しました";
+
+// 設定
+"Not Set" = "未設定";
+"Copied to Clipboard" = "クリップボードにコピーしました";
+"Video Playback Failed" = "動画の再生に失敗しました";
+"Database Initialization Error" = "データベースの初期化エラー";
+"Pull down to refresh" = "下にスワイプして更新";
+
+// エラー
+"Network Error" = "ネットワークエラー";
+"Please enter" = "入力してください";
+"Yesterday" = "昨日";
+"Minutes ago" = "分前";
+"No data available" = "データがありません";
+"Data Error" = "データエラー";
+"Verification" = "認証";
+"Please enter the verification code" = "認証コードを入力してください";
+"Camera" = "カメラ";
+"Retry again" = "タップして再試行";
+"Network Request Failed" = "ネットワークリクエスト失敗";
+"Removed successfully" = "削除成功";
+"Added successfully" = "追加成功";
+
+"Private Browsing" = "プライベートブラウジング";
+"Enabled" = "有効";
+"Disabled" = "無効";
+"Enable" = "有効にする";
+"Disable" = "無効にする";  
+"Personalization"="パーソナライズ";

@@ -58,6 +58,7 @@
 "Not watched"="Not watched";
 "Clear the cache"="Clear the cache";
 "Privacy Policy"="Privacy Policy";
+"Privacy Statement"="Privacy Statement";
 "Color Mode"="Color Mode";
 "Light"="Light";
 "Dark"="Dark";
@@ -125,3 +126,10 @@
 "Network Request Failed" = "Network Request Failed";
 "Removed successfully" = "Removed successfully";
 "Added successfully" = "Added successfully";
+
+"Private Browsing" = "Private Browsing";
+"Enabled" = "Enabled";
+"Disabled" = "Disabled";
+"Enable"="Enable";
+"Disable"="Disable";
+"Personalization"="Personalization";
