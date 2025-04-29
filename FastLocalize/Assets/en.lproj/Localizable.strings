@@ -116,6 +116,8 @@
 "Network Error" = "Network Error";
 "Please enter" = "Please enter";
 "Yesterday" = "Yesterday";
+"Today"="Today";
+"Tomorrow"="Tomorrow";
 "Minutes ago" = "Minutes ago";
 "No data available" = "No data available";
 "Data Error" = "Data Error";
@@ -133,3 +135,19 @@
 "Enable"="Enable";
 "Disable"="Disable";
 "Personalization"="Personalization";
+
+// 日期
+"日"="Sun";
+"一"="Mon";
+"二"="Tue";
+"三"="Wed";
+"四"="Thu";
+"五"="Fri";
+"六"="Sat";
+"周日"="Sun";
+"周一"="Mon";
+"周二"="Tue";
+"周三"="Wed";
+"周四"="Thu";
+"周五"="Fri";
+"周六"="Sat";

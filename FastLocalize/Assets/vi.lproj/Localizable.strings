@@ -116,6 +116,8 @@
 "Network Error" = "Lỗi mạng";
 "Please enter" = "Vui lòng nhập";
 "Yesterday" = "Hôm qua";
+"Today"="Hôm nay";
+"Tomorrow"="Ngày mai";
 "Minutes ago" = "phút trước";
 "No data available" = "Không có dữ liệu";
 "Data Error" = "Lỗi dữ liệu";
@@ -133,3 +135,19 @@
 "Enable" = "Bật";
 "Disable" = "Tắt";
 "Personalization"="Cá nhân hóa";
+
+
+"日"="CN";
+"一"="T2";
+"二"="T3";
+"三"="T4";
+"四"="T5";
+"五"="T6";
+"六"="T7";
+"周日"="Chủ Nhật";
+"周一"="Thứ Hai";
+"周二"="Thứ Ba";
+"周三"="Thứ Tư";
+"周四"="Thứ Năm";
+"周五"="Thứ Sáu";
+"周六"="Thứ Bảy";
