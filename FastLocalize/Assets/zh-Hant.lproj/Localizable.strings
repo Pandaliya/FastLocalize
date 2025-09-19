@@ -70,6 +70,7 @@
 "Album" = "相簿";
 "Photos" = "照片";
 "Photo" = "照片";
+"Save to Photos" = "儲存到相簿";
 "Delete" = "刪除";
 "Are you sure you want to delete" = "是否確定刪除";
 "Fail to delete" = "刪除失敗";

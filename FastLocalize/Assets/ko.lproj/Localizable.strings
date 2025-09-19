@@ -70,6 +70,7 @@
 "Album" = "앨범";
 "Photos" = "사진";
 "Photo" = "사진";
+"Save to Photos" = "사진에 저장";
 "Delete" = "삭제";
 "Are you sure you want to delete" = "삭제하시겠습니까?";
 "Fail to delete" = "삭제 실패";

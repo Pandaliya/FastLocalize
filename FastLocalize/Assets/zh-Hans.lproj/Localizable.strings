@@ -69,8 +69,9 @@
 "Photo Album"="相册"; 
 "Album"="相册"; 
 "Photos"="照片"; 
-"Photo"="照片"; 
-"Delete"="删除"; 
+"Photo"="照片";
+"Save to Photos"="保存到照片";
+"Delete"="删除";
 "Are you sure you want to delete"="是否删除"; 
 "Fail to delete"="删除失败";
 

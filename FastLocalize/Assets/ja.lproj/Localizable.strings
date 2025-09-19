@@ -70,6 +70,7 @@
 "Album" = "アルバム";
 "Photos" = "写真";
 "Photo" = "写真";
+"Save to Photos" = "写真に保存";
 "Delete" = "削除";
 "Are you sure you want to delete" = "削除してもよろしいですか？";
 "Fail to delete" = "削除に失敗しました";

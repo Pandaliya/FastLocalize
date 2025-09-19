@@ -70,6 +70,7 @@
 "Album" = "Альбом";
 "Photos" = "Фотографии";
 "Photo" = "Фото";
+"Save to Photos" = "Сохранить";
 "Delete" = "Удалить";
 "Are you sure you want to delete" = "Вы уверены, что хотите удалить?";
 "Fail to delete" = "Ошибка удаления";

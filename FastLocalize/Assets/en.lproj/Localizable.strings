@@ -70,6 +70,7 @@
 "Album"="Album";
 "Photos"="Photos";
 "Photo"="Photo";
+"Save to Photos"="Save to Photos";
 "Delete"="Delete";
 "Are you sure you want to delete"="Are you sure you want to delete";
 "Fail to delete"="Fail to delete";
